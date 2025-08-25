@@ -26,10 +26,6 @@ TurfSpot is a comprehensive turf booking application with three modules: Admin, 
 
 ---
 
-## 🌐 URLs
-
-- **User App**: [https://turf-spot.vercel.app/](https://turf-spot.vercel.app/)
-- **Owner/Admin App**: [https://turf-spot-ao.vercel.app/](https://turf-spot-ao.vercel.app/)
 
 ### 🔐 Admin Credentials (For Demo)
 
@@ -49,77 +45,4 @@ TurfSpot is a comprehensive turf booking application with three modules: Admin, 
 - **Image Hosting**: Cloudinary
 
 
-
-## Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/RijoKsd/TurfSpot.git
-   ```
-2. Install dependencies for both client and server
-   ```bash
-   cd TurfSpot
-   npm install
-   cd server
-   npm install
-   cd ../client/owner
-   npm install
-   cd ../user
-   npm install
-   ```
-3. Create a `.env` file in the `server` directory and add the following environment variables:
-
-   ```env
-    PORT = your_port
-    MONGO_URI=your_mongo_uri
-
-    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-    CLOUDINARY_API_KEY=your_cloudinary_api_key
-    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
-    OWNER_URL = your_owner_url
-    USER_URL = your_user_url
-
-    EMAIL = your_email for sending emails
-    PASSWORD = your_password for sending emails(you will get from app password in google account)
-
-    RAZORPAY_KEY_ID = your_razorpay_key_id
-    RAZORPAY_SECRET_KEY = your_razorpay_secret_key
-   
-    JWT_SECRET = your_jwt_secret
-
-
-   ```
-
-4. Run the application
-
-   ```bash
-   # To run the backend
-   cd server
-   npm run server
-
-   # To run the owner client
-   cd ../client/owner
-   npm run dev
-
-   # To run the user client
-   cd ../user
-   npm run dev
-   ```
-
-## Contributing
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For any inquiries or questions, please contact us at [rijobdk@gmail.com](mailto:rijobdk@gmail.com).
 
